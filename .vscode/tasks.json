@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "sqlproj: Build DatabaseProjectTestDBProjectLTDB2025",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"c:/git/TestDBProject1/DatabaseProjectTestDBProjectLTDB2025/DatabaseProjectTestDBProjectLTDB2025.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the DatabaseProjectTestDBProjectLTDB2025 SQL project"
+		}
+	]
+}
